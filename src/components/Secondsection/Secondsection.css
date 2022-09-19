@@ -1,0 +1,35 @@
+.Section2-main{
+    display: flex;
+    background-color:rgb(227, 230, 233);
+    align-items: center;
+    justify-content: center;
+    height:90px;
+   
+}
+.Section2-innerContainer
+{
+    display: flex;
+    width: 95%;
+    height:80px;
+    align-items: center;
+    text-align: center;
+    background-color:rgb(227, 230, 233);
+    justify-content:space-between;
+}
+.Section2-Search
+{
+    /* background-color:rgb(255, 255, 255); */
+    /* border: 1px solid rgb(227, 230, 233) !important; */
+}
+.Section2-Button{
+    display: flex;
+    justify-content:space-between;
+    /* background-color:white */
+}
+.Section2-TextfieldSearch
+{
+    width: 400px !important;
+    background-color:white;
+    border: none !important;
+    /* border-radius:200px !important */
+}

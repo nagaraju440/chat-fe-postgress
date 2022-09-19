@@ -1,0 +1,35 @@
+.left-panel
+{
+    display: flex;
+    /* flex-direction: row; */
+    height: 70px;
+    width: 350px;
+    /* width: auto !important; */
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    margin-left:40px;
+    margin-top: 10px;
+    /* padding:10px !important; */
+    background-color:rgb(255, 255, 255);
+    border-bottom: 1px solid gray;
+    
+}
+.left-panel-discription
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    background-color: azure;
+}
+.left-panel-avatar
+{
+flex:0.3;
+margin-left:20px;
+size: 70px;
+}
+.left-panel-activetime
+{
+flex: 0.3;
+}
