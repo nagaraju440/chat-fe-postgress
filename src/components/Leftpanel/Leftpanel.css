@@ -3,7 +3,7 @@
     display: flex;
     /* flex-direction: row; */
     height: 70px;
-    width: 350px;
+    width: 320px;
     /* width: auto !important; */
     justify-content: center;
     align-items: center;
@@ -12,7 +12,8 @@
     margin-top: 10px;
     /* padding:10px !important; */
     background-color:rgb(255, 255, 255);
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid rgb(214, 214, 214);
+    /* overflow: hidden; */
     
 }
 .left-panel-discription
@@ -21,15 +22,32 @@
     display: flex;
     flex-direction: column;
     justify-content: start;
-    background-color: azure;
+    /* background-color: azure; */
 }
 .left-panel-avatar
 {
 flex:0.3;
 margin-left:20px;
-size: 70px;
+size: 70px !important;
 }
 .left-panel-activetime
 {
 flex: 0.3;
 }
+@media screen and (max-width:1440px)
+{
+    .left-panel
+    {
+        width: 300px !important;
+        margin-left: 5px;
+    }
+}
+@media screen and (max-width:1024px)
+{
+    .left-panel
+    {
+        width: 300px !important;
+        margin-left: 5px;
+    }
+}
+
