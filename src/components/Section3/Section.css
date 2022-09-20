@@ -2,7 +2,7 @@
 {
     background-color:rgb(227, 230, 233);
     display: flex;
-    height:785px;
+    height:auto;
     /* padding: 5px; */
     align-items: center;
     justify-content: center;
@@ -19,46 +19,65 @@
 .section3-leftpart
 {
     display: flex;
-    width:25%;
-    height:100%;
+    width:40%;
+    height:auto;
     background-color:rgb(255, 255, 255);
-    border-radius: 50px;
-    overflow: hidden;
+    /* border-radius: 50px; */
+    /* overflow-y: auto; */
+    overflow-x: auto;
+    border: 1px solid black;
+    cursor: pointer;
+    
 }
 .section3-rightpart
 {
     display: flex;
-    margin-left: 20px;
-    width:75%;
+    /* margin-left: 20px; */
+    width:100%;
     height:100%;
     /* background-color:rgb(93, 136, 161); */
     background-color: white;
-    border-radius: 50px; 
-    overflow: hidden;
-    scroll-behavior:auto;
+    /* border-radius: 50px;  */
+    position: relative;
+    /* overflow: hidden; */
+    /* scroll-behavior:auto; */
 }
 .section3-inputfield
 {
-    position:absolute;
+    /* position:absolute; */
     bottom: 0;
-    margin-bottom: 80px;
-    margin-left: 60px;
+    /* margin-bottom: 80px; */
+    /* margin-left: 60px; */
    
     
 }
 .section3-iconfield
 {
-    display: flex;
-    position:absolute;
-    bottom: 0;
-    margin-bottom: 90px;
-    margin-left: 1230px;
-    height:45px !important;
+    /* display: flex; */
+    /* position:absolute; */
+    /* bottom: 0; */
+    /* margin-bottom: 90px; */
+    /* margin-left: 1230px;  */
+    height:auto;
     width: 45px !important;
-    border-radius: 30px;
-    align-items: center;
-    text-align: center;
-    justify-content:center;
+    /* border-radius: 30px; */
+    /* align-items: center; */
+    /* text-align: center; */
+    /* justify-content:center; */
     background-color:rgb(41, 106, 182) !important;
     color: white!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.total{
+    margin-left: 20px;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 20px;
+    position: absolute;
+    bottom: 30px;
+}
+.input{
+    width:60vw   ;
 }

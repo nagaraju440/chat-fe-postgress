@@ -74,6 +74,55 @@ function Leftpanel() {
             discription: "student",
             activetime: "9:00"
         },
+        {
+            id: 2,
+            img: "HP",
+            name: "VARSHA",
+            discription: "student",
+            activetime: "9:00"
+        },
+        {
+            id: 2,
+            img: "HP",
+            name: "VARSHA",
+            discription: "student",
+            activetime: "9:00"
+        },
+        {
+            id: 2,
+            img: "HP",
+            name: "VARSHA",
+            discription: "student",
+            activetime: "9:00"
+        },
+        {
+            id: 2,
+            img: "HP",
+            name: "VARSHA",
+            discription: "student",
+            activetime: "9:00"
+        },
+        {
+            id: 2,
+            img: "HP",
+            name: "VARSHA",
+            discription: "student",
+            activetime: "9:00"
+        },
+        {
+            id: 2,
+            img: "HP",
+            name: "VARSHA",
+            discription: "student",
+            activetime: "9:00"
+        },
+        {
+            id: 2,
+            img: "HP",
+            name: "VARSHA",
+            discription: "student",
+            activetime: "9:00"
+        },
         
     ]
     

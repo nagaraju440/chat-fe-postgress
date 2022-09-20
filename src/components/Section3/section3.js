@@ -17,10 +17,12 @@ export default function Section3() {
           <Leftpanel></Leftpanel>
         </div>
         <div className="section3-rightpart">
-          <div className="section3-inputfield" style={{borderRadius:"400px",border:"0px solid black"}}>
-            <TextField
+          <div className='totaal'>
+          <div className='total'>
+          <div className="section3-inputfield">
+            <TextField className='input'
               label="Type Here......"
-              style={{ width: "1150px",borderRadius:"400px" ,backgroundColor:"#e8f2fc",border:"0px"}}
+              
               disableUnderline={false}
               InputProps={{
                 endAdornment: (
@@ -30,14 +32,16 @@ export default function Section3() {
                       <SentimentSatisfiedAltIcon />
                     </IconButton>
                     <IconButton>
-                      <AttachFileIcon style={{ paddingLeft: "10px" }} />
+                      {/* <AttachFileIcon style={{ paddingLeft: "10px" }} /> */}
                     </IconButton>
                   </InputAdornment>
                 )
               }}
             />
           </div>
-          <div className="section3-iconfield"><iconButton varient="primary"><SendRoundedIcon/></iconButton></div>
+          <div className="section3-iconfield"><iconButton className="sent " varient="primary"><SendRoundedIcon/></iconButton></div>
+          </div>
+        </div>
         </div>
       </div>
     </div>
